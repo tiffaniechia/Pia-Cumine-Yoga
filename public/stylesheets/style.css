@@ -16,7 +16,7 @@ html {
 }
 
 .opacity {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.12);
     height: 100%;
     padding-top: 4em;
 }

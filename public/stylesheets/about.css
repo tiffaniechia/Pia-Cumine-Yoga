@@ -1,5 +1,5 @@
 .about-page {
-    height: 38em;
+    padding-bottom: 5em;
 }
 
 .bio {
@@ -23,4 +23,5 @@
     margin: 0 auto;
     background: url(../images/pia_head.jpg) center center no-repeat;
     background-size: cover;
+
 }

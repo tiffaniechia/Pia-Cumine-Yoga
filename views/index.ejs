@@ -6,27 +6,18 @@
     <link rel='stylesheet' href='/stylesheets/logo.css'/>
     <link rel='stylesheet' href='/stylesheets/navigation-bar.css'/>
     <link rel='stylesheet' href='/stylesheets/about.css'/>
-    <link rel='stylesheet' href='/stylesheets/classes.css'/>
+        <link rel='stylesheet' href='/stylesheets/classes.css'/>
+    <link rel='stylesheet' href='/stylesheets/social.css'/>
+    <link rel='stylesheet' href='/stylesheets/contact.css'/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="http://snapwidget.com/js/snapwidget.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-
-<div class="home-page">
-    <div class="opacity">
-        <div class="navigation-bar">
-            <% include ./partials/logo.ejs %>
-            <div class="navigation-left">
-                <div class="navigation-link"><a href="#about-page">about</a></div>
-                <div class="navigation-link"><a href="#classes-page">classes</a></div>
-            </div>
-            <div class="navigation-right">
-                <div class="navigation-link">contact</div>
-                <div class="navigation-link">social</div>
-            </div>
-        </div>
-    </div>
-</div>
+<% include ./pages/home.ejs %>
 <% include ./pages/about.ejs %>
 <% include ./pages/classes.ejs %>
+<% include ./pages/social.ejs %>
+<% include ./pages/contact.ejs %>
 </body>
 </html>

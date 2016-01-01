@@ -1,6 +1,6 @@
 .navigation-bar {
     margin: 0 auto;
-    width: 65%;
+    width: 70%;
     text-align: center;
 }
 
@@ -29,4 +29,41 @@
     display: inline-block;
     float: right;
     padding-top: 7em;
+}
+
+@media (max-width: 1166px) {
+    .navigation-bar {
+        width: 90%;
+    }
+}
+
+@media (max-width: 906px) {
+    .navigation-bar {
+        width: 100%;
+    }
+}
+
+@media (max-width: 816px) {
+    .navigation-left {
+        display: block;
+        float: none;
+        padding-top: 1em;
+    }
+
+    .navigation-link a {
+        color: lightgrey;
+    }
+
+    .navigation-right {
+        display: block;
+        float: none;
+        padding-top: 0em;
+    }
+
+    .navigation-link {
+        display: block;
+        padding: 0.2em;
+
+    }
+
 }
