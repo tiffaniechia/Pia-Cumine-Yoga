@@ -1,0 +1,26 @@
+.about-page {
+    height: 38em;
+}
+
+.bio {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 6em;
+    padding-bottom: 4em;
+    letter-spacing: 0.08em;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.bio p {
+    padding-top: 1em;
+}
+
+.profile-picture {
+    height: 5em;
+    width: 5em;
+    border-radius: 10em;
+    margin: 0 auto;
+    background: url(../images/pia_head.jpg) center center no-repeat;
+    background-size: cover;
+}

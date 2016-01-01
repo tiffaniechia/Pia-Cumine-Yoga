@@ -3,7 +3,10 @@
 <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css'/>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='/stylesheets/logo.css'/>
+    <link rel='stylesheet' href='/stylesheets/navigation-bar.css'/>
+    <link rel='stylesheet' href='/stylesheets/about.css'/>
+    <link rel='stylesheet' href='/stylesheets/classes.css'/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -11,15 +14,9 @@
 <div class="home-page">
     <div class="opacity">
         <div class="navigation-bar">
-            <div class="logo">
-                <div class="logo-wrapper">
-                    <div>pia</div>
-                    <div>cumine</div>
-                    <div>yoga</div>
-                </div>
-            </div>
+            <% include ./partials/logo.ejs %>
             <div class="navigation-left">
-                <div class="navigation-link">about</div>
+                <div class="navigation-link"><a href="#about-page">about</a></div>
                 <div class="navigation-link">classes</div>
             </div>
             <div class="navigation-right">
@@ -29,5 +26,13 @@
         </div>
     </div>
 </div>
+<% include ./pages/about.ejs %>
+<div class="classes-page">
+    <div class="placeholder-container">
+        <div class="placeholder-title">stay tuned.</div>
+        <div class="placeholder-paragraph">stay tuned</div>
+    </div>
+</div>
+
 </body>
 </html>

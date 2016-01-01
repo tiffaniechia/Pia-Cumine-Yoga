@@ -1,0 +1,32 @@
+.navigation-bar {
+    margin: 0 auto;
+    width: 65%;
+    text-align: center;
+}
+
+.navigation-link {
+    display: inline;
+    padding: 1.8em;
+    font-size: 1.3em;
+    letter-spacing: 0.04em;
+}
+
+.navigation-link a {
+    color: darkslategrey;
+}
+
+.navigation-link a:hover {
+    color: slategrey;
+}
+
+.navigation-left {
+    display: inline-block;
+    float: left;
+    padding-top: 7em;
+}
+
+.navigation-right {
+    display: inline-block;
+    float: right;
+    padding-top: 7em;
+}
