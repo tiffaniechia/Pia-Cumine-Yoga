@@ -2,6 +2,7 @@ body {
     font-family: "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
     height: 100%;
     margin: 0;
+    font-weight: lighter;
 }
 
 html {
@@ -15,7 +16,7 @@ html {
 }
 
 .opacity {
-    background-color: rgba(255, 255, 255, 0.13);
+    background-color: rgba(255, 255, 255, 0.1);
     height: 100%;
     padding-top: 4em;
 }
@@ -27,14 +28,43 @@ html {
     background-color: white;
     opacity: 0.3;
     text-align: center;
-    font-weight: lighter;
     font-size: 4em;
     margin: 0 auto;
     padding: 0.1em;
     line-height: 0.8;
+    display: inline-block;
 }
 
 .logo-wrapper {
     padding-top: 0.6em;
 }
 
+.navigation-bar {
+    margin: 0 auto;
+    width: 65%;
+    text-align: center;
+}
+
+.navigation-link {
+    display: inline;
+    padding: 1.8em;
+    color: darkslategrey;
+    font-size: 1.3em;
+    letter-spacing: 0.04em;
+}
+
+.navigation-link:hover {
+    color: slategrey;
+}
+
+.navigation-left {
+    display: inline-block;
+    float: left;
+    padding-top: 7em;
+}
+
+.navigation-right {
+    display: inline-block;
+    float: right;
+    padding-top: 7em;
+}
