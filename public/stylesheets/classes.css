@@ -1,8 +1,25 @@
 .classes-page {
     background-color: slategrey;
-    height: 30em;
+    height: 35em;
+}
+
+
+.placeholder-container {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10em;
+    text-align: center;
+    color: white;
+
 }
 
 .placeholder-title {
+    font-size: 8em;
+    text-transform: uppercase;
 
+}
+
+.placeholder-paragraph {
+    letter-spacing: 0.08em;
+    padding-top: 3em;
 }
