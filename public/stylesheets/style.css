@@ -24,3 +24,14 @@ html {
 a {
     text-decoration: none;
 }
+
+@media (max-width: 320px) {
+    body {
+        height: 110%;
+    }
+
+    .opacity {
+        height: 110%;
+    }
+
+}
