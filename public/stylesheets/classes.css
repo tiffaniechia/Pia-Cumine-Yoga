@@ -25,4 +25,8 @@
     .placeholder-container {
         width: 90%;
     }
+    .placeholder-title {
+        font-size: 4.5em;
+        text-transform: uppercase;
+    }
 }

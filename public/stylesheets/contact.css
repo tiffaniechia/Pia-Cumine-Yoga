@@ -16,3 +16,9 @@
     padding: 0.5em;
     letter-spacing: 0.03em;
 }
+
+@media (max-width: 320px) {
+    .contact-information {
+        font-size: 1.4em;
+    }
+}
