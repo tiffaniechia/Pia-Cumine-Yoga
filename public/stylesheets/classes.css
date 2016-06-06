@@ -22,11 +22,16 @@
 }
 
 @media (max-width: 535px) {
-    .placeholder-container {
+    .classes-container {
         width: 90%;
     }
-    .placeholder-title {
+
+    .classes-title {
         font-size: 4.5em;
         text-transform: uppercase;
+    }
+
+    .classes-paragraph {
+        font-size: 0.8em;
     }
 }

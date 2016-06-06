@@ -18,11 +18,16 @@
 }
 
 .profile-picture {
-    height: 5em;
-    width: 5em;
+    height: 6em;
+    width: 6em;
     border-radius: 10em;
     margin: 0 auto;
     background: url(../images/pia_head.jpg) center center no-repeat;
     background-size: cover;
+}
 
+@media (max-width: 535px) {
+    .bio p {
+        font-size: 0.9em;
+    }
 }
