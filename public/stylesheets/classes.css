@@ -4,19 +4,19 @@
     padding-top: 10em;
 }
 
-.placeholder-container {
+.classes-container {
     width: 70%;
     margin: 0 auto;
     text-align: center;
     color: white;
 }
 
-.placeholder-title {
+.classes-title {
     font-size: 6.5em;
     text-transform: uppercase;
 }
 
-.placeholder-paragraph {
+.classes-paragraph {
     letter-spacing: 0.08em;
     padding-top: 3em;
 }
