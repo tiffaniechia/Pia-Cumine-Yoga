@@ -7,13 +7,14 @@
     margin: 0 auto;
     padding-top: 6em;
     padding-bottom: 4em;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.07em;
     text-align: center;
     line-height: 1.6;
 }
 
 .bio p {
     padding-top: 1em;
+    text-align: justify;
 }
 
 .profile-picture {
