@@ -1,33 +1,33 @@
 .about-page {
-    padding-bottom: 5em;
+  padding-bottom: 5em;
 }
 
 .bio {
-    width: 70%;
-    margin: 0 auto;
-    padding-top: 6em;
-    padding-bottom: 4em;
-    letter-spacing: 0.07em;
-    text-align: center;
-    line-height: 1.6;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 6em;
+  padding-bottom: 4em;
+  letter-spacing: 0.07em;
+  text-align: center;
+  line-height: 1.6;
 }
 
 .bio p {
-    padding-top: 1em;
-    text-align: justify;
+  padding-top: 1em;
+  text-align: justify;
 }
 
 .profile-picture {
-    height: 6em;
-    width: 6em;
-    border-radius: 10em;
-    margin: 0 auto;
-    background: url(../images/pia_head.jpg) center center no-repeat;
-    background-size: cover;
+  height: 6em;
+  width: 6em;
+  border-radius: 10em;
+  margin: 0 auto;
+  background: url(../images/pia_head.jpg) center center no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 535px) {
-    .bio p {
-        font-size: 0.9em;
-    }
+  .bio p {
+    font-size: 0.9em;
+  }
 }
