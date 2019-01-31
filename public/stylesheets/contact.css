@@ -1,24 +1,24 @@
 .contact-page {
-    padding-top: 5em;
+  padding-top: 5em;
 }
 
 .contact-information {
-    width: 70%;
-    margin: 0 auto;
-    padding: 5em;
-    height: 3em;
-    display: inline;
-    text-align: center;
-    font-size: 1.5em;
+  width: 70%;
+  margin: 0 auto;
+  padding: 5em;
+  height: 3em;
+  display: inline;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .contact-information div {
-    padding: 0.5em;
-    letter-spacing: 0.03em;
+  padding: 0.5em;
+  letter-spacing: 0.03em;
 }
 
 @media (max-width: 320px) {
-    .contact-information {
-        font-size: 1.4em;
-    }
+  .contact-information {
+    font-size: 1.4em;
+  }
 }

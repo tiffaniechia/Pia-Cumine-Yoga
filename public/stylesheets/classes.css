@@ -1,37 +1,45 @@
 .classes-page {
-    background-color: slategrey;
-    padding-bottom: 10em;
-    padding-top: 10em;
+  background-color: slategrey;
+  padding-bottom: 10em;
+  padding-top: 10em;
 }
 
 .classes-container {
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
-    color: white;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
 }
 
 .classes-title {
-    font-size: 6.5em;
-    text-transform: uppercase;
+  font-size: 6.5em;
+  text-transform: uppercase;
 }
 
 .classes-paragraph {
-    letter-spacing: 0.08em;
-    padding-top: 3em;
+  letter-spacing: 0.08em;
+  padding-top: 3em;
+}
+
+.class-link {
+  border-bottom: 1px solid white;
+  color: white;
+}
+.class-link:hover {
+  border-bottom: 2px solid white;
 }
 
 @media (max-width: 535px) {
-    .classes-container {
-        width: 90%;
-    }
+  .classes-container {
+    width: 90%;
+  }
 
-    .classes-title {
-        font-size: 4.5em;
-        text-transform: uppercase;
-    }
+  .classes-title {
+    font-size: 4.5em;
+    text-transform: uppercase;
+  }
 
-    .classes-paragraph {
-        font-size: 0.8em;
-    }
+  .classes-paragraph {
+    font-size: 0.8em;
+  }
 }

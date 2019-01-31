@@ -1,70 +1,68 @@
 .navigation-bar {
-    margin: 0 auto;
-    width: 70%;
-    text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
 }
 
 .navigation-link {
-    display: inline;
-    padding: 1.8em;
-    font-size: 1.3em;
-    letter-spacing: 0.04em;
+  display: inline;
+  padding: 1.8em;
+  font-size: 1.3em;
+  letter-spacing: 0.04em;
 }
 
 .navigation-link a {
-    color: darkslategrey;
+  color: darkslategrey;
 }
 
 .navigation-link a:hover {
-    color: slategrey;
+  color: slategrey;
 }
 
 .navigation-left {
-    display: inline-block;
-    float: left;
-    padding-top: 7em;
+  display: inline-block;
+  float: left;
+  padding-top: 7em;
 }
 
 .navigation-right {
-    display: inline-block;
-    float: right;
-    padding-top: 7em;
+  display: inline-block;
+  float: right;
+  padding-top: 7em;
 }
 
 @media (max-width: 1166px) {
-    .navigation-bar {
-        width: 90%;
-    }
+  .navigation-bar {
+    width: 90%;
+  }
 }
 
 @media (max-width: 906px) {
-    .navigation-bar {
-        width: 100%;
-    }
+  .navigation-bar {
+    width: 100%;
+  }
 }
 
 @media (max-width: 816px) {
-    .navigation-left {
-        display: block;
-        float: none;
-        padding-top: 1em;
-    }
+  .navigation-left {
+    display: block;
+    float: none;
+    padding-top: 1em;
+  }
 
-    .navigation-link a {
-        color: lightgrey;
-    }
+  .navigation-link a {
+    color: lightgrey;
+  }
 
-    .navigation-right {
-        display: block;
-        float: none;
-        padding-top: 0em;
-    }
+  .navigation-right {
+    display: block;
+    float: none;
+    padding-top: 0em;
+  }
 
-    .navigation-link {
-        display: block;
-        padding: 0.2em;
-        font-size: 1em;
-
-    }
-
+  .navigation-link {
+    display: block;
+    padding: 0.2em;
+    font-size: 1em;
+  }
 }
